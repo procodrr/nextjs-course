@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+      },
+      "material-icon-theme.languages.associations": {
+        "javascriptreact": "javascript"
+      }
+}
