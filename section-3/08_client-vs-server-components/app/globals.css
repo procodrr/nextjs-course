@@ -1,0 +1,170 @@
+:root {
+  --primary-bg: #1a1a1a;
+  --secondary-bg: #2d2d2d;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --accent-color: #646cff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar {
+  list-style: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: var(--secondary-bg);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
+.nav-link.active {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.services-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.services-list li {
+  background-color: var(--secondary-bg);
+  padding: 1.25rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.services-list li:hover {
+  transform: translateY(-2px);
+}
+
+.blog-links {
+  max-width: 400px;
+  margin-inline: auto;
+  padding-left: 1em;
+}
+
+.blog-links a {
+  color: rgb(210, 210, 210);
+}
+
+.blog-links a:hover {
+  color: white;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+
+  .navbar {
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .navbar li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    text-align: center;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .nav-link.active {
+    border-width: 1px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.25rem;
+  }
+
+  .nav-link {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
