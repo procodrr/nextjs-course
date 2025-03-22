@@ -1,0 +1,28 @@
+
+> 01_understanding-rendering-paradigms-next-app@0.1.0 start
+> next start
+
+   ▲ Next.js 15.1.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.68.103:3000
+
+ ✓ Starting...
+ ✓ Ready in 700ms
+ ⨯ ReferenceError: object is not defined
+    at n (C:\Users\anura\OneDrive\Desktop\web-dev\nextjs-course\section-5\01_using-error.js-file-to-handle-errors\.next\server\app\blogs\[blogID]\page.js:1:5471) {
+  digest: '2140654894'
+}
+
+> 01_understanding-rendering-paradigms-next-app@0.1.0 start
+> next start
+
+   ▲ Next.js 15.1.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.68.103:3000
+
+ ✓ Starting...
+ ✓ Ready in 727ms
+ ⨯ ReferenceError: object is not defined
+    at n (C:\Users\anura\OneDrive\Desktop\web-dev\nextjs-course\section-5\01_using-error.js-file-to-handle-errors\.next\server\app\blogs\[blogID]\page.js:1:5471) {
+  digest: '2140654894'
+}
