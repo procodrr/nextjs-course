@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d7595ca1-059a-419d-98da-fedae7fd8310",
+    "text": "Learn DSA",
+    "completed": false
+  },
+  {
+    "id": "58b3db1e-aaff-4f21-a24e-f5febcf9165a",
+    "text": "Master Node.js",
+    "completed": false
+  },
+  {
+    "id": "bd8bdd33-be57-45b4-b027-3453b124f8d9",
+    "text": "Buy Groceries",
+    "completed": false
+  }
+]

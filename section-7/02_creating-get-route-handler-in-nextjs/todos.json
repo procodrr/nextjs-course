@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "text": "Learn Next.js 15",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "text": "Master Node.js",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "text": "Learn MongoDB",
+        "completed": true
+    }
+]

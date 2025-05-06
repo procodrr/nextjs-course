@@ -1,0 +1,22 @@
+[
+  {
+    "id": "58b3db1e-aaff-4f21-a24e-f5febcf9165a",
+    "text": "Master Node.js",
+    "completed": false
+  },
+  {
+    "id": "126acd0f-db0e-46aa-8cb8-d7ad0af11ea5",
+    "text": "Learn Next.js",
+    "completed": false
+  },
+  {
+    "id": "7ee4c87c-8249-4617-996a-6c549256a257",
+    "text": "Read Books",
+    "completed": false
+  },
+  {
+    "id": "ed740f99-a8fc-4365-835b-c836018db34f",
+    "text": "Do Workout",
+    "completed": false
+  }
+]
